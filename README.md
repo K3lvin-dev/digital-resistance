@@ -1,22 +1,11 @@
-```markdown
-# Projeto Board - Banco de Dados PostgreSQL com Docker
-
-Este projeto configura um banco de dados PostgreSQL utilizando Docker. As credenciais do banco de dados são configuradas por variáveis de ambiente para maior segurança.
-
-## 🚀 Pré-requisitos
-
-Antes de começar, você precisa ter o Docker instalado. Caso ainda não tenha, siga as instruções abaixo:
-
-- [Instalar Docker](https://www.docker.com/products/docker-desktop)
-
-## ⚙️ Como Subir o Projeto
+## Como Subir o Projeto
 
 ### 1. **Clone o repositório**
 
 Clone o repositório para o seu ambiente local:
 
 ```bash
-git clone https://seu-repositorio.git
+git clone https://github.com/K3lvin-dev/digital-resistance
 cd seu-repositorio
 ```
 
@@ -64,7 +53,3 @@ docker-compose down
 
 ---
 
-Agora, você tem um ambiente Docker configurado e o PostgreSQL rodando com as credenciais seguras. Aproveite para desenvolver e testar seu projeto!
-```
-
-Este é o seu **README.md** completo, formatado corretamente e pronto para uso em um único bloco Markdown.
