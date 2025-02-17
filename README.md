@@ -1,7 +1,5 @@
 # digital-resistance
 
-Claro! Aqui está o conteúdo completo do **README.md** em formato markdown:
-
 ```markdown
 # Projeto Board - Banco de Dados PostgreSQL com Docker
 
