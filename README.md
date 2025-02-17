@@ -1,5 +1,3 @@
-Claro! Aqui está o seu **README.md** completo e formatado em um único bloco de Markdown:
-
 ```markdown
 # Projeto Board - Banco de Dados PostgreSQL com Docker
 
