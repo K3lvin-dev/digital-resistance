@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:13
+    container_name: board_db
+    env_file:
+      - .env.dev
+    environment:
+      POSTGRES_INITDB_ARGS: "--data-checksums"
+    volumes:
+      - board_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5433:5432"
+    networks:
+      - board_network
+
+volumes:
+  board_data:
+    driver: local
+
+networks:
+  board_network:
+    driver: bridge
